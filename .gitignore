@@ -126,3 +126,6 @@ gradle-app.setting
 /gradle-lib/caches/6.8.3/
 /gradle-lib/caches/transforms-3/
 **/**/gc.properties
+/.idea/
+/.idea/
+/.idea/sonarlint/
