@@ -23,12 +23,12 @@ package com.practice.design_pattern.factory_method;
 public class Main {
 
     public static void main(String[] args) {
-        JindoCreator jindo = new JindoCreator();
+        JindoFactory jindo = new JindoFactory();
         jindo.name();
 
         System.out.println("==============================");
 
-        SapsareeCreator sapsaree = new SapsareeCreator();
+        SapsareeFactory sapsaree = new SapsareeFactory();
         sapsaree.name();
     }
 }

@@ -1,7 +1,7 @@
 package com.practice.design_pattern.factory_method;
 
 // creator(factory)
-public abstract class PetCreator {
+public abstract class PetFactory {
 
     public void name(){
         Pet pet =  createPet();
